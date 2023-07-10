@@ -107,43 +107,4 @@ class WeisfeilerLehmanHashing_sg2vsb(signed_WeisfeilerLehmanHashing):
 
     #TODO
     def _do_a_recursion(self):
-        new_features = {}
-            new_WL_pos_neg_reps = {}
-            for node in self.graph.nodes():
-                nebs = self.graph.neighbors(node)
-
-                pos_degs = []
-                neg_degs = []
-                for neb in nebs:
-                    if neb != node:
-                        if self.graph.has_edge(node, neb):
-                            edge_data = self.graph.get_edge_data(node, neb)
-                            if edge_data["weight"] >= 0.0:
-                                #le voisin est connecté +
-                                #on récupère tous ses propres voisins connectés positivement
-                                for pos_n in self.WL_pos_neg_reps[node][0]:
-                                    pos_degs.append(pos_n)
-                                #on récupère tous ses propres voisins connectés négativement
-                                for neg_n in self.WL_pos_neg_reps[node][1]:
-                                    neg_degs.append(neg_n)
-
-                            elif edge_data["weight"] < 0.0:
-                                #le voisin est connecté -
-                                #on récupère tous ses propres voisins connectés positivement
-                                for pos_n in self.WL_pos_neg_reps[node][0]:
-                                    neg_degs.append(pos_n)
-                                #on récupère tous ses propres voisins connectés négativement
-                                for neg_n in self.WL_pos_neg_reps[node][1]:
-                                    pos_degs.append(neg_n)
-                ####
-
-                new_WL_pos_neg_reps[node] = [[pos_degs], [neg_degs]]
-                f = str(pos_degs) + "|" + str(neg_degs)
-                hash_object = hashlib.md5(f.encode())
-                hashing = hash_object.hexdigest()
-                new_features[node] = hashing
-            self.WL_pos_neg_reps = new_WL_pos_neg_reps
-            self.extracted_features = {
-                k: self.extracted_features[k] + [v] for k, v in new_features.items()
-            }
-            return new_features
+        
