@@ -7,15 +7,12 @@ import pickle as pkl
 
 
 
-"""Convert a graph ...
-
-:param 
-:return:
 """
+Transforms graph labels to be a continuous list of integers starting from 0.
 
-
-
-
+:param graph: The graph to relabel.
+:return: The relabeled graph.
+"""
 def relabel_graph(graph):
     mapping = {}
     cpt_nodes = 0
@@ -25,14 +22,17 @@ def relabel_graph(graph):
     graph = nx.relabel_nodes(graph, mapping)
     return graph
 
-def get_graphs_features(graphs_path, model_type, wl_iterations):
-"""Load a collection of graphs.
 
-:param graphs_path: path of the directory containing all graph files.
+"""
+Extracts the Signed Graph2Vec features (rooted subgraphs).
+
+:param graphs_path: path of the folder containing all graph files.
 :param model_type: type of model that we want to use for learning (``g2v`` or ``sg2vn`` or
         ``sg2vsb``)
-:return:
+:param wl_iterations: Number of iterations of the WL relabeling algorithm.
+:return graphs_features: A list of extracted features.
 """
+def get_graphs_features(graphs_path, model_type, wl_iterations):
     graph_files = glob.glob("%s/*.graphml" % (graphs_path))
     graphs_features = []
     for i in range(len(graph_files)):
@@ -57,17 +57,28 @@ def get_graphs_features(graphs_path, model_type, wl_iterations):
     return graphs_features
 
 
+"""
+Learns the Signed Graph2Vec embeddings.
+
+:param graph_features: The list of extracted graph features for all graphs in the dataset.
+:return: List of learned embeddings.
+"""
 def learn_embeddings(graph_features):
     model = Signed_Graph2Vec()
     model.fit_documents(graph_features)
     embeddings = model.get_embedding()
     return embeddings
 
+"""
+Writes embeddings to local files.
 
-def write_embeddings(embeddings, path):
+:param embeddings: learned embeddings.
+:return: List of learned embeddings.
+"""
+def write_embeddings(embeddings):
     for i in range(len(embeddings)):
-    with open('%s/%s.pkl' % (path, i), 'wb') as outp:
-        pickle.dump(embeddings[i], outp, pickle.HIGHEST_PROTOCOL)
+        with open('out/SG2V/%s.pkl' % (i), 'wb') as outp:
+            pickle.dump(embeddings[i], outp, pickle.HIGHEST_PROTOCOL)
 
 
 

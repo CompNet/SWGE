@@ -2,6 +2,9 @@ from karateclub.utils.treefeatures import WeisfeilerLehmanHashing
 from karateclub import Graph2Vec
 from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 
+"""
+    Adapted from https://github.com/benedekrozemberczki/SGCN
+"""
 
 class Signed_Graph2Vec(Graph2Vec):
     """
