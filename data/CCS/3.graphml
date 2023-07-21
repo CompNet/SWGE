@@ -1,0 +1,3289 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="sign" attr.type="int" for="edge" id="d3" />
+  <key attr.name="weight" attr.type="double" for="edge" id="d2" />
+  <key attr.name="y" attr.type="double" for="node" id="d1" />
+  <key attr.name="x" attr.type="double" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="n0">
+      <data key="d0">0.784265108007902</data>
+      <data key="d1">0.586021464312408</data>
+    </node>
+    <node id="n1">
+      <data key="d0">2.13347812164444</data>
+      <data key="d1">0.118704275678243</data>
+    </node>
+    <node id="n2">
+      <data key="d0">1.16099591719569</data>
+      <data key="d1">-1.07421005085767</data>
+    </node>
+    <node id="n3">
+      <data key="d0">-1.39553414819804</data>
+      <data key="d1">0.389303195159499</data>
+    </node>
+    <node id="n4">
+      <data key="d0">-0.553658883099329</data>
+      <data key="d1">-0.886637202551884</data>
+    </node>
+    <node id="n5">
+      <data key="d0">-0.0694148891761084</data>
+      <data key="d1">0.276909704855026</data>
+    </node>
+    <node id="n6">
+      <data key="d0">2.2549949046048</data>
+      <data key="d1">0.630041355607173</data>
+    </node>
+    <node id="n7">
+      <data key="d0">1.19478303452204</data>
+      <data key="d1">0.623244822239249</data>
+    </node>
+    <node id="n8">
+      <data key="d0">0.102761622065711</data>
+      <data key="d1">-0.16239321808293</data>
+    </node>
+    <node id="n9">
+      <data key="d0">1.62002670842391</data>
+      <data key="d1">0.369014956702324</data>
+    </node>
+    <node id="n10">
+      <data key="d0">-0.409973828286726</data>
+      <data key="d1">0.489768197164545</data>
+    </node>
+    <node id="n11">
+      <data key="d0">-0.668557587797052</data>
+      <data key="d1">1.67477294306029</data>
+    </node>
+    <node id="n12">
+      <data key="d0">0.40759278804089</data>
+      <data key="d1">1.57023564681764</data>
+    </node>
+    <node id="n13">
+      <data key="d0">1.11275354513994</data>
+      <data key="d1">1.41578131694519</data>
+    </node>
+    <node id="n14">
+      <data key="d0">0.0362435935172791</data>
+      <data key="d1">-0.834563796147434</data>
+    </node>
+    <node id="n15">
+      <data key="d0">0.62679436067408</data>
+      <data key="d1">-1.35492790499121</data>
+    </node>
+    <node id="n16">
+      <data key="d0">0.912821836222913</data>
+      <data key="d1">1.02906596058506</data>
+    </node>
+    <node id="n17">
+      <data key="d0">-0.317403895187326</data>
+      <data key="d1">1.92619001317583</data>
+    </node>
+    <node id="n18">
+      <data key="d0">1.22685910003679</data>
+      <data key="d1">0.181336021026115</data>
+    </node>
+    <node id="n19">
+      <data key="d0">-1.04788892967127</data>
+      <data key="d1">-0.37795745648043</data>
+    </node>
+    <node id="n20">
+      <data key="d0">-0.711839960182465</data>
+      <data key="d1">0.136078444928829</data>
+    </node>
+    <node id="n21">
+      <data key="d0">1.50407415269602</data>
+      <data key="d1">1.32928925869458</data>
+    </node>
+    <node id="n22">
+      <data key="d0">1.92449418817608</data>
+      <data key="d1">1.13069860805307</data>
+    </node>
+    <node id="n23">
+      <data key="d0">0.432206016000485</data>
+      <data key="d1">1.05262815055043</data>
+    </node>
+    <node id="n24">
+      <data key="d0">1.26169276673275</data>
+      <data key="d1">-0.449187431340334</data>
+    </node>
+    <node id="n25">
+      <data key="d0">2.45941004142942</data>
+      <data key="d1">-0.253192947300484</data>
+    </node>
+    <node id="n26">
+      <data key="d0">-0.953506445897307</data>
+      <data key="d1">0.653081389203322</data>
+    </node>
+    <node id="n27">
+      <data key="d0">0.236716766553738</data>
+      <data key="d1">0.594772260421376</data>
+    </node>
+    <node id="n28">
+      <data key="d0">-0.26975491305289</data>
+      <data key="d1">0.846219780227565</data>
+    </node>
+    <node id="n29">
+      <data key="d0">0.82503636528431</data>
+      <data key="d1">1.62531340385445</data>
+    </node>
+    <node id="n30">
+      <data key="d0">0.0758141885598314</data>
+      <data key="d1">1.21894496024923</data>
+    </node>
+    <node id="n31">
+      <data key="d0">1.0097691926213</data>
+      <data key="d1">-0.0511395139270021</data>
+    </node>
+    <node id="n32">
+      <data key="d0">0.940019445722665</data>
+      <data key="d1">-0.475464892135132</data>
+    </node>
+    <node id="n33">
+      <data key="d0">1.63530526579667</data>
+      <data key="d1">-0.346401093655226</data>
+    </node>
+    <node id="n34">
+      <data key="d0">0.492142528952813</data>
+      <data key="d1">2.37923955921008</data>
+    </node>
+    <node id="n35">
+      <data key="d0">0.38955193017975</data>
+      <data key="d1">-0.56699781888178</data>
+    </node>
+    <node id="n36">
+      <data key="d0">0.686685896069862</data>
+      <data key="d1">-0.0346860040926663</data>
+    </node>
+    <node id="n37">
+      <data key="d0">0.467990949179643</data>
+      <data key="d1">0.262131035871564</data>
+    </node>
+    <node id="n38">
+      <data key="d0">2.32499958055809</data>
+      <data key="d1">1.58119894245067</data>
+    </node>
+    <node id="n39">
+      <data key="d0">-0.354671345996931</data>
+      <data key="d1">-0.307657250265358</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n0" target="n2">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n3">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n4">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n5">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n6">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n7">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n8">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n9">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n10">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n11">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n12">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n13">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n14">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n15">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n16">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n0" target="n17">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n18">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n19">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n0" target="n20">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n0" target="n21">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n22">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n0" target="n23">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n0" target="n24">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n25">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n0" target="n26">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n27">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n28">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n0" target="n29">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n0" target="n30">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n31">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n32">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n33">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n0" target="n34">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n0" target="n35">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n0" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n37">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n0" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n0" target="n39">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n1" target="n2">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n3">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n4">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n5">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n6">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n7">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n8">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n9">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n10">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n11">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n12">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n13">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n14">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n1" target="n15">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n16">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n1" target="n17">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n18">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n1" target="n19">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n20">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n21">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n1" target="n22">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n23">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n24">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n25">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n1" target="n26">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n27">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n28">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n29">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n1" target="n30">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n31">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n1" target="n32">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n33">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n1" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n35">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n36">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n1" target="n37">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n1" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n3">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n4">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n5">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n6">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n7">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n8">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n9">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n10">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n11">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n12">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n13">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n14">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n2" target="n15">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n2" target="n16">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n2" target="n17">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n18">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n2" target="n19">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n20">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n21">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n22">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n23">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n24">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n2" target="n25">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n2" target="n26">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n27">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n28">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n2" target="n29">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n30">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n31">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n2" target="n32">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n2" target="n33">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n2" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n35">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n37">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n2" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n2" target="n39">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n3" target="n4">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n5">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n6">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n7">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n8">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n9">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n10">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n3" target="n11">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n12">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n13">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n14">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n3" target="n15">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n16">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n17">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n3" target="n18">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n19">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n3" target="n20">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n3" target="n21">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n22">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n23">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n3" target="n24">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n25">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n26">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n3" target="n27">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n28">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n3" target="n29">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n30">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n31">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n3" target="n32">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n33">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n35">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n37">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n3" target="n39">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n4" target="n5">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n4" target="n6">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n4" target="n7">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n4" target="n8">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n4" target="n9">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n4" target="n10">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n4" target="n11">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n4" target="n12">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n4" target="n13">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n4" target="n14">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n4" target="n15">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n4" target="n16">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n4" target="n17">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n4" target="n18">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n4" target="n19">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n4" target="n20">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n4" target="n21">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n4" target="n22">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n4" target="n23">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n4" target="n24">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n4" target="n25">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n4" target="n26">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n4" target="n27">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n4" target="n28">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n4" target="n29">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n4" target="n30">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n4" target="n31">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n4" target="n32">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n4" target="n33">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n4" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n4" target="n35">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n4" target="n36">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n4" target="n37">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n4" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n4" target="n39">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n5" target="n6">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n5" target="n7">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n5" target="n8">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n5" target="n9">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n5" target="n10">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n5" target="n11">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n5" target="n12">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n5" target="n13">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n5" target="n14">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n5" target="n15">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n5" target="n16">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n5" target="n17">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n5" target="n18">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n5" target="n19">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n5" target="n20">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n5" target="n21">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n5" target="n22">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n5" target="n23">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n5" target="n24">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n5" target="n25">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n5" target="n26">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n5" target="n27">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n5" target="n28">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n5" target="n29">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n5" target="n30">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n5" target="n31">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n5" target="n32">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n5" target="n33">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n5" target="n34">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n5" target="n35">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n5" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n5" target="n37">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n5" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n5" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n6" target="n7">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n6" target="n8">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n6" target="n9">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n6" target="n10">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n6" target="n11">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n6" target="n12">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n6" target="n13">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n6" target="n14">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n6" target="n15">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n6" target="n16">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n6" target="n17">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n6" target="n18">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n6" target="n19">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n6" target="n20">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n6" target="n21">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n6" target="n22">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n6" target="n23">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n6" target="n24">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n6" target="n25">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n6" target="n26">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n6" target="n27">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n6" target="n28">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n6" target="n29">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n6" target="n30">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n6" target="n31">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n6" target="n32">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n6" target="n33">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n6" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n6" target="n35">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n6" target="n36">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n6" target="n37">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n6" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n6" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n7" target="n8">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n7" target="n9">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n7" target="n10">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n7" target="n11">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n7" target="n12">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n7" target="n13">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n7" target="n14">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n7" target="n15">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n7" target="n16">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n7" target="n17">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n7" target="n18">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n7" target="n19">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n7" target="n20">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n7" target="n21">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n7" target="n22">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n7" target="n23">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n7" target="n24">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n7" target="n25">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n7" target="n26">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n7" target="n27">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n7" target="n28">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n7" target="n29">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n7" target="n30">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n7" target="n31">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n7" target="n32">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n7" target="n33">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n7" target="n34">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n7" target="n35">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n7" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n7" target="n37">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n7" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n7" target="n39">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n8" target="n9">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n8" target="n10">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n8" target="n11">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n8" target="n12">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n8" target="n13">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n8" target="n14">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n8" target="n15">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n8" target="n16">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n8" target="n17">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n8" target="n18">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n8" target="n19">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n8" target="n20">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n8" target="n21">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n8" target="n22">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n8" target="n23">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n8" target="n24">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n8" target="n25">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n8" target="n26">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n8" target="n27">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n8" target="n28">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n8" target="n29">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n8" target="n30">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n8" target="n31">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n8" target="n32">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n8" target="n33">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n8" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n8" target="n35">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n8" target="n36">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n8" target="n37">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n8" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n8" target="n39">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n9" target="n10">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n9" target="n11">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n9" target="n12">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n9" target="n13">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n9" target="n14">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n9" target="n15">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n9" target="n16">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n9" target="n17">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n9" target="n18">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n9" target="n19">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n9" target="n20">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n9" target="n21">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n9" target="n22">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n9" target="n23">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n9" target="n24">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n9" target="n25">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n9" target="n26">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n9" target="n27">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n9" target="n28">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n9" target="n29">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n9" target="n30">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n9" target="n31">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n9" target="n32">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n9" target="n33">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n9" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n9" target="n35">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n9" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n9" target="n37">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n9" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n9" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n10" target="n11">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n10" target="n12">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n10" target="n13">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n10" target="n14">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n10" target="n15">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n10" target="n16">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n10" target="n17">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n10" target="n18">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n10" target="n19">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n10" target="n20">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n10" target="n21">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n10" target="n22">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n10" target="n23">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n10" target="n24">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n10" target="n25">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n10" target="n26">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n10" target="n27">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n10" target="n28">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n10" target="n29">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n10" target="n30">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n10" target="n31">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n10" target="n32">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n10" target="n33">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n10" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n10" target="n35">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n10" target="n36">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n10" target="n37">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n10" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n10" target="n39">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n11" target="n12">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n11" target="n13">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n11" target="n14">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n11" target="n15">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n11" target="n16">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n11" target="n17">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n11" target="n18">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n11" target="n19">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n11" target="n20">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n11" target="n21">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n11" target="n22">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n11" target="n23">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n11" target="n24">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n11" target="n25">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n11" target="n26">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n11" target="n27">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n11" target="n28">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n11" target="n29">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n11" target="n30">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n11" target="n31">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n11" target="n32">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n11" target="n33">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n11" target="n34">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n11" target="n35">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n11" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n11" target="n37">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n11" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n11" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n12" target="n13">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n12" target="n14">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n12" target="n15">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n12" target="n16">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n12" target="n17">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n12" target="n18">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n12" target="n19">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n12" target="n20">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n12" target="n21">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n12" target="n22">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n12" target="n23">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n12" target="n24">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n12" target="n25">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n12" target="n26">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n12" target="n27">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n12" target="n28">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n12" target="n29">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n12" target="n30">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n12" target="n31">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n12" target="n32">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n12" target="n33">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n12" target="n34">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n12" target="n35">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n12" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n12" target="n37">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n12" target="n38">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n12" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n13" target="n14">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n13" target="n15">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n13" target="n16">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n13" target="n17">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n13" target="n18">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n13" target="n19">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n13" target="n20">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n13" target="n21">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n13" target="n22">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n13" target="n23">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n13" target="n24">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n13" target="n25">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n13" target="n26">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n13" target="n27">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n13" target="n28">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n13" target="n29">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n13" target="n30">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n13" target="n31">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n13" target="n32">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n13" target="n33">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n13" target="n34">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n13" target="n35">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n13" target="n36">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n13" target="n37">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n13" target="n38">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n13" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n14" target="n15">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n14" target="n16">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n14" target="n17">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n14" target="n18">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n14" target="n19">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n14" target="n20">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n14" target="n21">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n14" target="n22">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n14" target="n23">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n14" target="n24">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n14" target="n25">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n14" target="n26">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n14" target="n27">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n14" target="n28">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n14" target="n29">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n14" target="n30">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n14" target="n31">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n14" target="n32">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n14" target="n33">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n14" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n14" target="n35">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n14" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n14" target="n37">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n14" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n14" target="n39">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n15" target="n16">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n15" target="n17">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n15" target="n18">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n15" target="n19">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n15" target="n20">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n15" target="n21">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n15" target="n22">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n15" target="n23">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n15" target="n24">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n15" target="n25">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n15" target="n26">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n15" target="n27">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n15" target="n28">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n15" target="n29">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n15" target="n30">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n15" target="n31">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n15" target="n32">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n15" target="n33">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n15" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n15" target="n35">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n15" target="n36">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n15" target="n37">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n15" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n15" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n16" target="n17">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n16" target="n18">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n16" target="n19">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n16" target="n20">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n16" target="n21">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n16" target="n22">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n16" target="n23">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n16" target="n24">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n16" target="n25">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n16" target="n26">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n16" target="n27">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n16" target="n28">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n16" target="n29">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n16" target="n30">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n16" target="n31">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n16" target="n32">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n16" target="n33">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n16" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n16" target="n35">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n16" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n16" target="n37">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n16" target="n38">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n16" target="n39">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n17" target="n18">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n17" target="n19">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n17" target="n20">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n17" target="n21">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n17" target="n22">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n17" target="n23">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n17" target="n24">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n17" target="n25">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n17" target="n26">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n17" target="n27">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n17" target="n28">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n17" target="n29">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n17" target="n30">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n17" target="n31">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n17" target="n32">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n17" target="n33">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n17" target="n34">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n17" target="n35">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n17" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n17" target="n37">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n17" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n17" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n18" target="n19">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n18" target="n20">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n18" target="n21">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n18" target="n22">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n18" target="n23">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n18" target="n24">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n18" target="n25">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n18" target="n26">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n18" target="n27">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n18" target="n28">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n18" target="n29">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n18" target="n30">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n18" target="n31">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n18" target="n32">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n18" target="n33">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n18" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n18" target="n35">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n18" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n18" target="n37">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n18" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n18" target="n39">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n19" target="n20">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n19" target="n21">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n19" target="n22">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n19" target="n23">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n19" target="n24">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n19" target="n25">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n19" target="n26">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n19" target="n27">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n19" target="n28">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n19" target="n29">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n19" target="n30">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n19" target="n31">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n19" target="n32">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n19" target="n33">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n19" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n19" target="n35">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n19" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n19" target="n37">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n19" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n19" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n20" target="n21">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n20" target="n22">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n20" target="n23">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n20" target="n24">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n20" target="n25">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n20" target="n26">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n20" target="n27">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n20" target="n28">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n20" target="n29">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n20" target="n30">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n20" target="n31">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n20" target="n32">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n20" target="n33">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n20" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n20" target="n35">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n20" target="n36">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n20" target="n37">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n20" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n20" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n21" target="n22">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n21" target="n23">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n21" target="n24">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n21" target="n25">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n21" target="n26">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n21" target="n27">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n21" target="n28">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n21" target="n29">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n21" target="n30">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n21" target="n31">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n21" target="n32">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n21" target="n33">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n21" target="n34">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n21" target="n35">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n21" target="n36">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n21" target="n37">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n21" target="n38">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n21" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n22" target="n23">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n22" target="n24">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n22" target="n25">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n22" target="n26">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n22" target="n27">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n22" target="n28">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n22" target="n29">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n22" target="n30">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n22" target="n31">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n22" target="n32">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n22" target="n33">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n22" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n22" target="n35">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n22" target="n36">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n22" target="n37">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n22" target="n38">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n22" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n23" target="n24">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n23" target="n25">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n23" target="n26">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n23" target="n27">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n23" target="n28">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n23" target="n29">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n23" target="n30">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n23" target="n31">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n23" target="n32">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n23" target="n33">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n23" target="n34">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n23" target="n35">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n23" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n23" target="n37">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n23" target="n38">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n23" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n24" target="n25">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n24" target="n26">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n24" target="n27">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n24" target="n28">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n24" target="n29">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n24" target="n30">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n24" target="n31">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n24" target="n32">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n24" target="n33">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n24" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n24" target="n35">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n24" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n24" target="n37">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n24" target="n38">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n24" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n25" target="n26">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n25" target="n27">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n25" target="n28">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n25" target="n29">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n25" target="n30">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n25" target="n31">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n25" target="n32">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n25" target="n33">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n25" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n25" target="n35">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n25" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n25" target="n37">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n25" target="n38">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n25" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n26" target="n27">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n26" target="n28">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n26" target="n29">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n26" target="n30">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n26" target="n31">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n26" target="n32">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n26" target="n33">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n26" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n26" target="n35">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n26" target="n36">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n26" target="n37">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n26" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n26" target="n39">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n27" target="n28">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n27" target="n29">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n27" target="n30">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n27" target="n31">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n27" target="n32">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n27" target="n33">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n27" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n27" target="n35">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n27" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n27" target="n37">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n27" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n27" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n28" target="n29">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n28" target="n30">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n28" target="n31">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n28" target="n32">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n28" target="n33">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n28" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n28" target="n35">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n28" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n28" target="n37">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n28" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n28" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n29" target="n30">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n29" target="n31">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n29" target="n32">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n29" target="n33">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n29" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n29" target="n35">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n29" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n29" target="n37">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n29" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n29" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n30" target="n31">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n30" target="n32">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n30" target="n33">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n30" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n30" target="n35">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n30" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n30" target="n37">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n30" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n30" target="n39">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n31" target="n32">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n31" target="n33">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n31" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n31" target="n35">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n31" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n31" target="n37">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n31" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n31" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n32" target="n33">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n32" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n32" target="n35">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n32" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n32" target="n37">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n32" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n32" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n33" target="n34">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n33" target="n35">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n33" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n33" target="n37">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n33" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n33" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n34" target="n35">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n34" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n34" target="n37">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n34" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n34" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n35" target="n36">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n35" target="n37">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n35" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n35" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n36" target="n37">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n36" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n36" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n37" target="n38">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+    <edge source="n37" target="n39">
+      <data key="d2">1.0</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="n38" target="n39">
+      <data key="d2">-1.0</data>
+      <data key="d3">-1</data>
+    </edge>
+  </graph>
+</graphml>
