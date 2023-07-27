@@ -1,6 +1,7 @@
 from karateclub.utils.treefeatures import WeisfeilerLehmanHashing
 from karateclub import Graph2Vec
 from gensim.models.doc2vec import Doc2Vec, TaggedDocument
+import hashlib
 
 """
     Adapted from https://github.com/benedekrozemberczki/SGCN
@@ -11,7 +12,7 @@ class Signed_Graph2Vec(Graph2Vec):
     Extends Graph2Vec class add a fit_documents method. 
     """
 
-    def fit_documents(self, documents: List[gensim.models.doc2vec.TaggedDocument]): 
+    def fit_documents(self, documents): 
         """
         Fit Doc2Vec model directly with extracted features.
         """
@@ -27,6 +28,8 @@ class Signed_Graph2Vec(Graph2Vec):
                 alpha=self.learning_rate,
                 seed=self.seed,
             )
+
+        self._embedding = [self.model.docvecs[str(i)] for i, _ in enumerate(documents)]
 
 
 class signed_WeisfeilerLehmanHashing(WeisfeilerLehmanHashing):
@@ -65,6 +68,7 @@ class WeisfeilerLehmanHashing_g2v(signed_WeisfeilerLehmanHashing):
     """
     "g2v" model. Basic G2V model.
     """
+    pass
 
 class WeisfeilerLehmanHashing_sg2vn(signed_WeisfeilerLehmanHashing):
     """
@@ -103,11 +107,11 @@ class WeisfeilerLehmanHashing_sg2vn(signed_WeisfeilerLehmanHashing):
         }
         return new_features
 
-class WeisfeilerLehmanHashing_sg2vsb(signed_WeisfeilerLehmanHashing):
+'''class WeisfeilerLehmanHashing_sg2vsb(signed_WeisfeilerLehmanHashing):
     """
     "sg2vsb" model.
     """
 
     #TODO
-    def _do_a_recursion(self):
+    def _do_a_recursion(self):'''
         

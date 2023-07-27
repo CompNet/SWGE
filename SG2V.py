@@ -17,7 +17,7 @@ def relabel_graph(graph):
     mapping = {}
     cpt_nodes = 0
     for node in graph.nodes():
-        mapping[n] = cpt_nodes
+        mapping[node] = cpt_nodes
         cpt_nodes += 1
     graph = nx.relabel_nodes(graph, mapping)
     return graph
@@ -37,9 +37,8 @@ def get_graphs_features(graphs_path, model_type, wl_iterations):
     graphs_features = []
     for i in range(len(graph_files)):
         graph_file = "%s/%s.graphml" % (graphs_path, i)
-        G = nx.read_grahml(graph_file)
+        G = nx.read_graphml(graph_file)
         G = relabel_graph(G)
-        G = self._check_graph(G)
         if model_type == "g2v":
             #graph, wl_iterations, attributed, erase_base_features
             wl_model = WeisfeilerLehmanHashing_g2v(G, wl_iterations, False, False)
@@ -78,11 +77,14 @@ Writes embeddings to local files.
 def write_embeddings(embeddings):
     for i in range(len(embeddings)):
         with open('out/SG2V/%s.pkl' % (i), 'wb') as outp:
-            pickle.dump(embeddings[i], outp, pickle.HIGHEST_PROTOCOL)
+            pkl.dump(embeddings[i], outp, pkl.HIGHEST_PROTOCOL)
 
 
 
 if __name__ == '__main__':
+    graphs_path = "data/CCS"
+    model_type = "sg2vn"
+    wl_iterations = 2
     graph_features  = get_graphs_features(graphs_path, model_type, wl_iterations)
     learned_embeddings = learn_embeddings(graph_features)
     write_embeddings(learned_embeddings)
