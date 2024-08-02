@@ -1,5 +1,5 @@
 from SG2V import *
-from run_sgcn import *
+from WSGCN import *
 from evaluation import *
 
 
