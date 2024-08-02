@@ -43,6 +43,7 @@ These scripts will export the learned representations into the `out` folder.
 
 * After running the previous scripts, you can perform the classification by running `evaluation.py`. You can configure the `path_emb` and `path_label` variables to change the dataset used.
 
+* The `main.py` file can be used to run all the experiment with a single script.
 
 ## References 
 * A. Narayanan, M. Chandramohan, R. Venkatesan, L. Chen, Y. Liu, and S. Jaiswal: *graph2vec: Learning distributed representations of graphs*, MLG, 2017. URL: [http://www.mlgworkshop.org/2017/paper/MLG2017_paper_21.pdf]
