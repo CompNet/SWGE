@@ -80,6 +80,15 @@ def write_embeddings(embeddings):
             pkl.dump(embeddings[i], outp, pkl.HIGHEST_PROTOCOL)
 
 
+def run_all_experiments_sg2v():
+    for graph_path in ["data/CSS", "data/EPF", "data/SSO"]:
+        for model_type in ["g2v", "sg2vn", "sg2vsb"]:
+            for wl_iterations in range(5):
+                wl_iterations += 1
+                graph_features  = get_graphs_features(graphs_path, model_type, wl_iterations)
+                learned_embeddings = learn_embeddings(graph_features)
+                write_embeddings(learned_embeddings)
+
 
 if __name__ == '__main__':
     graphs_path = "data/CCS"

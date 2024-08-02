@@ -51,6 +51,9 @@ def run_all_SGCN(graphs_path):
         process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
         output, error = process.communicate()
 
+def run_all_experiments_sgcn():
+    for graphs_path in ["data/CSS/", "data/EPF/", "data/SSO/"]:
+        run_all_SGCN(graphs_path)
 
 if __name__ == '__main__':
     dataset = "SSO"
