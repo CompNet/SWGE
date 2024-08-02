@@ -32,7 +32,7 @@ This repository is composed of the following elements:
   ```
   pip install -r requirements.txt
   ```
-* In order to use the SGCN method, you have to download the implementation from [SGCN](https://github.com/benedekrozemberczki/SGCN) and place it inside a `SGCN-master` folder.
+* The SGCN method is based on the code of [SGCN](https://github.com/benedekrozemberczki/SGCN).
 * Retrieve the data from Zenodo and place them into the `data` folder.
 
 ## How to use ?
