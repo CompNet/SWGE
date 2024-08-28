@@ -43,7 +43,7 @@ def transform_to_edgelist(graphs_path):
   :param graphs_path: path to the folder containing all graphml files.
   :return None
 """
-def run_all_SGCN(graphs_path):
+def run_all_WSGCN(graphs_path):
     if not os.path.exists("%s/edgelist" % (graphs_path)):
         transform_to_edgelist(graphs_path)
     for i in range(len(glob.glob("%s/edgelist/*.csv" % (graphs_path)))):
@@ -59,4 +59,4 @@ if __name__ == '__main__':
     dataset = "SSO"
     graphs_path = "data/%s/" % (dataset)
 
-    run_all_SGCN(graphs_path)
+    run_all_WSGCN(graphs_path)
