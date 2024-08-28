@@ -4,7 +4,7 @@ from sgcn import SignedGCNTrainer
 from param_parser import parameter_parser
 from utils import tab_printer, read_graph, score_printer, save_logs
 
-def main():
+def run_sgcn():
     """
     Parsing command line parameters.
     Creating target matrix.
@@ -23,4 +23,4 @@ def main():
         save_logs(args, trainer.logs)
 
 if __name__ == "__main__":
-    main()
+    run_sgcn()
