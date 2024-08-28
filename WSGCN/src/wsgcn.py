@@ -1,4 +1,4 @@
-"""SGCN runner."""
+"""WSGCN runner."""
 
 import time
 import torch
