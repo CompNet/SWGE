@@ -21,45 +21,46 @@ This set of scripts primarily implements the two signed whole graph embedding me
 * Perform classification tasks based on the embeddings extracted with our method.
 
 In addition, these scripts reproduce the experiments described in our paper [[CLDA'24](#references)]. In particular, they compares the performance of our method with three alternatives from the literature:
-* `SiNE` [[WTAC'17](#references)]: a method that handles signed graphs, but only to represent individual vertices, and not the whole graph.
-* `Graph2vec` [[NCVC'17](#references)]: a method that handle whole-graphs, but only for unsigned graphs.
-* `SGCN` [[DMT'18](#references)]: like SiNE, a method that handles signed graphs, but only to represent individual vertices, and not the whole graph.
+* `SiNE` [[WTAC'17](#references)]: this method handles signed graphs, but only to represent individual vertices, and not the whole graph.
+* `Graph2vec` [[NCVC'17](#references)]: this method handle whole-graphs, but only for unsigned graphs.
+* `SGCN` [[DMT'18](#references)]: as for SiNE, this method handles signed graphs, but only to represent individual vertices, and not the whole graph.
 
 
 ## Data
-We include a few graphs for each dataset in the `data` folder. The full datasets can be downloaded from [Zenodo](https://doi.org/10.5281/zenodo.13851362). Place the downloaded graphs directly into the corresponding folder in `data`. 
+The scripts are meant to be applied to a corpus of three datasets constituted of signed networks annotated for graph classification. Because of GitHub's file size limit, we include only a few graphs from each dataset in the `data` folder. The full datasets can be downloaded from [Zenodo](https://doi.org/10.5281/zenodo.13851362). Place the downloaded graphs directly into the corresponding folders in `data`. 
 
 
 ## Organization
 This repository is composed of the following elements:
-
 * Folder `data`: input signed networks.
-* Folder `out`: contains the files produced by our scripts.
-* `requirements.py`: List of Python packages used in SWGE.
-* There are 3 main scripts:
-  * `SG2V.py`: Performs the representation learning step related to the Signed Graph2Vec methods.
-  * `run_sgcn.py`: Performs the representation learning step related to the Signed Graph Convolutional Networks methods.
+* Folder `out`: files produced by the scripts.
+* Folder `SG2V`: implementation of our signed version of the Graph2vec method.
+* Folder `SGCN`: implementation of the standard Signed Graph Convolutional Network method, taken from repository [SGCN](https://github.com/benedekrozemberczki/SGCN).
+* Folder `SiNE`: implementation of the standard Signed Network Embeddings method.
+* Folder `WSGCN`: implementation of our whole-graph variant of the SGCN method.
+* File `requirements.txt`: list of `Python` packages used by the scripts.
+* The main scripts are:
+  * `main.py`: learns the graph representations.
   * `evaluation.py`: Performs the classification task.
 
 
 ## Installation
-* Install Python (tested with Python 3.6.9)
+* Install `Python` (tested with `Python` v3.6.9)
 * Install dependencies using the following command:
   ```
   pip install -r requirements.txt
   ```
-* The SGCN method is based on the code of [SGCN](https://github.com/benedekrozemberczki/SGCN).
-* Retrieve the data from Zenodo and place them into the `data` folder.
+* Retrieve the data from Zenodo and place them into the `data` folder (as nexplained in section [Data](#data)).
 
 
-## How to use ?
-In order to learn representations `Graph2Vec`-based representations, run the file `SG2V.py`. You can configure the `model_type` between the 3 versions proposed in our paper: `g2v`, `sg2vn` or `sg2vsb`. To learn representations `SGCN`-based representations, run the file `run_sgcn.py`. These scripts will export the learned representations into the `out` folder.
+## How to use
+In order to learn `Graph2Vec`-based representations, run the file `SG2V.py`. You can configure the `model_type` between the 3 versions proposed in our paper: `g2v`, `sg2vn` or `sg2vsb`. To learn representations `SGCN`-based representations, run the file `run_sgcn.py`. These scripts will export the learned representations into the `out` folder.
 
 After running the previous scripts, you can perform the classification by running `evaluation.py`. You can configure the `path_emb` and `path_label` variables to change the dataset used. The `main.py` file can be used to run all the experiment with a single script.
 
 
 ## References
-* **[CLDA'24]** N. Cécillon, V. Labatut, R. Dufour, N. Arınık: *Whole-Graph Representation Learning For the Classification of Signed Networks*, IEEE Access (in press), 2024. DOI: [xxxx](https://dx.doi.org/xxxx) [⟨hal-xxxxxxxx⟩](https://hal.archives-ouvertes.fr/hal-xxxxxxxx)
+* **[CLDA'24]** N. Cécillon, V. Labatut, R. Dufour, N. Arınık: *Whole-Graph Representation Learning For the Classification of Signed Networks*, IEEE Access (in press), 2024. DOI: [xxxx](https://dx.doi.org/xxxx) [⟨hal-04712854⟩](https://hal.archives-ouvertes.fr/hal-04712854)
 * **[NCVC'17]** A. Narayanan, M. Chandramohan, R. Venkatesan, L. Chen, Y. Liu, and S. Jaiswal: *graph2vec: Learning distributed representations of graphs*, International Workshop on Mining and Learning with Graphs, 2017. URL: [http://www.mlgworkshop.org/2017/paper/MLG2017_paper_21.pdf]
 * **[DMT'18]** T. Derr, Y. Ma, and J. Tang: *Signed graph convolutional network*, 18th International Conference on Data Mining, 2018, p.929-934. DOI: [10.1109/ICDM.2018.00113](https://doi.org/10.1109/ICDM.2018.00113).
 * **[WTAC'17]** S. Wang, J. Tang, C. Aggarwal, Y. Chang, and H. Liu. *Signed network embedding in social media*. 17th SIAM International Conference on Data Mining, 2017, p.327-335. DOI: [10.1137/1.9781611974973.37](https://doi.org/10.1137/1.9781611974973.37).
