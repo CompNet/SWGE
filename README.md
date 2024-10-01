@@ -60,7 +60,7 @@ After running the previous scripts, you can perform the classification by runnin
 
 
 ## References
-* **[CLDA'24]** N. Cécillon, V. Labatut, R. Dufour, N. Arınık: *Whole-Graph Representation Learning For the Classification of Signed Networks*, IEEE Access (in press), 2024. DOI: [xxxx](https://dx.doi.org/xxxx) [⟨hal-04712854⟩](https://hal.archives-ouvertes.fr/hal-04712854)
+* **[CLDA'24]** N. Cécillon, V. Labatut, R. Dufour, N. Arınık: *Whole-Graph Representation Learning For the Classification of Signed Networks*, IEEE Access (in press), 2024. DOI: [10.1109/ACCESS.2024.3472474](https://dx.doi.org/10.1109/ACCESS.2024.3472474) [⟨hal-04712854⟩](https://hal.archives-ouvertes.fr/hal-04712854)
 * **[NCVC'17]** A. Narayanan, M. Chandramohan, R. Venkatesan, L. Chen, Y. Liu, and S. Jaiswal: *graph2vec: Learning distributed representations of graphs*, International Workshop on Mining and Learning with Graphs, 2017. URL: [http://www.mlgworkshop.org/2017/paper/MLG2017_paper_21.pdf]
 * **[DMT'18]** T. Derr, Y. Ma, and J. Tang: *Signed graph convolutional network*, 18th International Conference on Data Mining, 2018, p.929-934. DOI: [10.1109/ICDM.2018.00113](https://doi.org/10.1109/ICDM.2018.00113).
 * **[WTAC'17]** S. Wang, J. Tang, C. Aggarwal, Y. Chang, and H. Liu. *Signed network embedding in social media*. 17th SIAM International Conference on Data Mining, 2017, p.327-335. DOI: [10.1137/1.9781611974973.37](https://doi.org/10.1137/1.9781611974973.37).
