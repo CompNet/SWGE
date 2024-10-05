@@ -30,7 +30,7 @@ This set of scripts primarily implements the two signed whole graph embedding me
 * Learn the representations of whole signed graphs.
 * Perform classification tasks based on the embeddings extracted with our method.
 
-In addition, these scripts reproduce the experiments described in our paper [[CLDA'24](#references)]. In particular, they compares the performance of our method with three alternatives from the literature:
+In addition, these scripts reproduce the experiments described in our paper [[CLDA'24](#references)]. In particular, they compare the performance of our method with three alternatives from the literature:
 * `SiNE` [[WTAC'17](#references)]: this method handles signed graphs, but only to represent individual vertices, and not the whole graph.
 * `Graph2vec` [[NCVC'17](#references)]: this method handle whole-graphs, but only for unsigned graphs.
 * `SGCN` [[DMT'18](#references)]: as for SiNE, this method handles signed graphs, but only to represent individual vertices, and not the whole graph.
