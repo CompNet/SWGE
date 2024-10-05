@@ -16,7 +16,7 @@ SWGE is free software: you can redistribute it and/or modify it under the terms 
 If you use this source code or the associated dataset, please cite reference [[CLDA'24](#references)]:
 ```bibtex
 @Article{Cecillon2023,
-  author     = {Cécillon, Noé and Arınık, Nejat and Labatut, Vincent and Dufour, Richard},
+  author     = {Cécillon, Noé and Labatut, Vincent and Dufour, Richard and Arınık, Nejat},
   title      = {Whole-Graph Representation Learning For the Classification of Signed Networks},
   journal    = {IEEE Access},
   year       = {2024},
