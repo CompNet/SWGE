@@ -3,6 +3,8 @@ import glob
 from sklearn import svm
 from sklearn.metrics import f1_score
 from sklearn.model_selection import train_test_split
+from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import cross_val_score
 
 """
   Loads labels from pickle file and returns it.
@@ -37,14 +39,10 @@ def load_embeddings(path):
   :return None
 """
 def evaluation(embeddings, labels):
-	X_train, X_test, y_train, y_test = train_test_split(embeddings, labels, test_size=0.3, random_state=7)
 	binary_classifier_model = svm.SVC(class_weight="balanced")
-	binary_classifier_model.fit(X_train, y_train)
+	scores = cross_val_score(binary_classifier_model, embeddings, labels, cv=3, scoring='f1_micro')
 
-	y_pred = binary_classifier_model.predict(X_test)
-
-	print ("Micro F-measure: %0.4f" % (f1_score(y_test, y_pred, average='micro')))
-	print ("Macro F-measure: %0.4f" % (f1_score(y_test, y_pred, average='macro')))
+	print ("Micro F-measure: %0.4f" % (scores.mean()))
 
 
 
