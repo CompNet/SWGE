@@ -5,16 +5,13 @@ from sklearn.metrics import f1_score
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import cross_val_score
+import networkx as nx
 
-"""
-  Loads labels from pickle file and returns it.
-   
-  :param path: path to the pickle file
-  :return List of labels
-"""
 def load_labels(path):
-	with open(path, "rb") as f:
-		labels = pickle.load(f)
+	labels = []
+	for i in range(len(glob.glob("%s/*.graphml" % (path)))):
+		G = nx.read_graphml("%s/%s.graphml" % (path, i))
+		labels.append(G.graph("label"))
 	return labels
 
 """
@@ -27,7 +24,7 @@ def load_embeddings(path):
 	embeddings = []
 	for i in range(len(glob.glob("%s/*.pkl" % (path)))):
 		with open("%s/%s.pkl" % (path, i), "rb") as f:
-			emb = pickle.load(f)
+			emb = pkl.load(f)
 		embeddings.append(emb)
 	return embeddings
 
@@ -45,8 +42,12 @@ def evaluation(embeddings, labels):
 	print ("Micro F-measure: %0.4f" % (scores.mean()))
 
 
+def evaluate_SG2V():
+	for method in ["g2v", "sg2vn", "sg2vsb"]:
+		embeddings = load_embeddings("out/SG2V/%s" % (method))
+		labels = load_labels("data/%s" % (method))
+		evaluation(embeddings, labels)
+		
 
-if __name__ == '__main__':
-	embeddings = load_embeddings(path_emb)
-	labels = load_labels(path_label)
-	evaluation(embeddings, labels)
+
+

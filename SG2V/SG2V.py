@@ -1,7 +1,7 @@
 import glob
 import networkx as nx
 from karateclub.estimator import Estimator
-from signedWL import *
+from SG2V.signedWL import *
 import pickle as pkl
 
 
@@ -40,13 +40,10 @@ def get_graphs_features(graphs_path, model_type, wl_iterations):
         G = nx.read_graphml(graph_file)
         G = relabel_graph(G)
         if model_type == "g2v":
-            #graph, wl_iterations, attributed, erase_base_features
             wl_model = WeisfeilerLehmanHashing_g2v(G, wl_iterations, False, False)
         elif model_type == "sg2vn":
-            #graph, wl_iterations, attributed, erase_base_features
             wl_model = WeisfeilerLehmanHashing_sg2vn(G, wl_iterations, False, False)
         elif model_type == "sg2vsb":
-            #graph, wl_iterations, attributed, erase_base_features
             wl_model = WeisfeilerLehmanHashing_sg2vsb(G, wl_iterations, False, False)
         else:
             print ("Unknown type of model")
@@ -72,22 +69,25 @@ def learn_embeddings(graph_features):
 Writes embeddings to local files.
 
 :param embeddings: learned embeddings.
-:return: List of learned embeddings.
+:param model_type: type of model used for learning (``g2v`` or ``sg2vn`` or
+        ``sg2vsb``)
 """
-def write_embeddings(embeddings):
+def write_embeddings(embeddings, model_type):
     for i in range(len(embeddings)):
-        with open('out/SG2V/%s.pkl' % (i), 'wb') as outp:
+        with open('out/SG2V/%s/%s.pkl' % (model_type, i), 'wb') as outp:
             pkl.dump(embeddings[i], outp, pkl.HIGHEST_PROTOCOL)
 
 
+"""
+Runs experiments for all 3 datasets and 3 methods.
+"""
 def run_all_experiments_sg2v():
-    for graph_path in ["data/CSS", "data/EPF", "data/SSO"]:
+    for graph_path in ["data/CCS", "data/EPF", "data/SSO"]:
         for model_type in ["g2v", "sg2vn", "sg2vsb"]:
             for wl_iterations in range(5):
-                wl_iterations += 1
-                graph_features  = get_graphs_features(graphs_path, model_type, wl_iterations)
+                graph_features  = get_graphs_features(graph_path, model_type, wl_iterations+1)
                 learned_embeddings = learn_embeddings(graph_features)
-                write_embeddings(learned_embeddings)
+                write_embeddings(learned_embeddings, model_type)
 
 
 if __name__ == '__main__':

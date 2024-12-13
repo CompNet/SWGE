@@ -40,20 +40,16 @@ def transform_to_edgelist(graphs_path):
 """
   Learns the SGCN representations of all graphs by running the SGCN script. First, it transforms graphs to an edgelist to match the format required by SGCN script.
    
-  :param graphs_path: path to the folder containing all graphml files.
   :return None
 """
-def run_all_WSGCN(graphs_path):
-    if not os.path.exists("%s/edgelist" % (graphs_path)):
-        transform_to_edgelist(graphs_path)
-    for i in range(len(glob.glob("%s/edgelist/*.csv" % (graphs_path)))):
-        command = "python src/main.py --layers 32 --learning-rate 0.01 --reduction-dimensions 64 --epochs 10 --reduction-iterations 10 --edge-path %s/edgelist/%s.csv --embedding-path out/SGCN/%s.csv --regression-weights-path out/SGCN/weights/%s.csv" % (graphs_path, i, i ,i)
-        process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
-        output, error = process.communicate()
-
-def run_all_experiments_sgcn():
-    for graphs_path in ["data/CSS/", "data/EPF/", "data/SSO/"]:
-        run_all_SGCN(graphs_path)
+def run_all_experiments_wsgcn():
+    for graphs_path in ["data/CCS/", "data/EPF/", "data/SSO/"]:
+        if not os.path.exists("%s/edgelist" % (graphs_path)):
+            transform_to_edgelist(graphs_path)
+        for i in range(len(glob.glob("%s/edgelist/*.csv" % (graphs_path)))):
+            command = "python WSGCN/src/main.py --layers 32 --learning-rate 0.01 --reduction-dimensions 64 --epochs 10 --reduction-iterations 10 --edge-path %s/edgelist/%s.csv --embedding-path out/SGCN/%s.csv --regression-weights-path out/SGCN/weights/%s.csv" % (graphs_path, i, i ,i)
+            process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+            output, error = process.communicate()
 
 if __name__ == '__main__':
     dataset = "SSO"

@@ -54,10 +54,12 @@ class signed_WeisfeilerLehmanHashing(WeisfeilerLehmanHashing):
                     if neb != node:
                         if self.graph.has_edge(node, neb):
                             edge_data = self.graph.get_edge_data(node, neb)
-                            if edge_data["sign"] >= 0.0:
-                                pos_deg += 1
-                            elif edge_data["sign"] < 0.0:
-                                neg_deg += 1
+                            if len(edge_data) > 1:
+                                if edge_data["sign"] >= 0.0:
+                                    pos_deg += 1
+                                elif edge_data["sign"] < 0.0:
+                                    neg_deg += 1
+
                 f = str(pos_deg) + "|" + str(neg_deg)
                 self.features[node] = f
         self.extracted_features = {k: [str(v)] for k, v in self.features.items()}
@@ -90,10 +92,11 @@ class WeisfeilerLehmanHashing_sg2vn(signed_WeisfeilerLehmanHashing):
                 if neb != node:
                     if self.graph.has_edge(node, neb):
                         edge_data = self.graph.get_edge_data(node, neb)
-                        if edge_data["sign"] >= 0.0:
-                            degs.append("+" + str(self.features[neb]))
-                        elif edge_data["sign"] < 0.0:
-                            degs.append("-" + str(self.features[neb]))
+                        if len(edge_data) > 1:
+                            if edge_data["sign"] >= 0.0:
+                                degs.append("+" + str(self.features[neb]))
+                            elif edge_data["sign"] < 0.0:
+                                degs.append("-" + str(self.features[neb]))
             ####
 
 
@@ -107,11 +110,10 @@ class WeisfeilerLehmanHashing_sg2vn(signed_WeisfeilerLehmanHashing):
         }
         return new_features
 
-'''class WeisfeilerLehmanHashing_sg2vsb(signed_WeisfeilerLehmanHashing):
+class WeisfeilerLehmanHashing_sg2vsb(signed_WeisfeilerLehmanHashing):
     """
     "sg2vsb" model.
     """
 
-    #TODO
-    def _do_a_recursion(self):'''
+    pass
         

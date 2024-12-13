@@ -1,8 +1,8 @@
 """SGCN runner."""
 
-from sgcn import SignedGCNTrainer
-from param_parser import parameter_parser
-from utils import tab_printer, read_graph, score_printer, save_logs
+from SGCN.src import *
+from SGCN.src.param_parser import parameter_parser
+from SGCN.src.utils import tab_printer, read_graph, score_printer, save_logs
 
 def run_sgcn():
     """
