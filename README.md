@@ -8,7 +8,7 @@ SWGE is free software: you can redistribute it and/or modify it under the terms 
 
 * **Lab site:** http://lia.univ-avignon.fr/
 * **GitHub repo:** https://github.com/CompNet/SWGE
-* **Data:** https://doi.org/10.5281/zenodo.13851362
+* **Data:** https://doi.org/10.5281/zenodo.13851361
 * **Contact:** Noé Cécillon <noe.cecillon@alumni.univ-avignon.fr>, Vincent Labatut <vincent.labatut@univ-avignon.fr>
 
 -----------------------------------------------------------------------
@@ -37,7 +37,7 @@ In addition, these scripts reproduce the experiments described in our paper [[CL
 
 
 ## Data
-The scripts are meant to be applied to a corpus of three datasets constituted of signed networks annotated for graph classification. Because of GitHub's file size limit, we include only a few graphs from each dataset in the `data` folder. The full datasets can be downloaded from [Zenodo](https://doi.org/10.5281/zenodo.13851362). Place the downloaded graphs directly into the corresponding folders in `data`. 
+The scripts are meant to be applied to a corpus of three datasets constituted of signed networks annotated for graph classification. Because of GitHub's file size limit, we include only a few graphs from each dataset in the `data` folder. The full datasets can be downloaded from [Zenodo](https://doi.org/10.5281/zenodo.13851361). Place the downloaded graphs directly into the corresponding folders in `data`. 
 
 
 ## Organization
@@ -70,7 +70,7 @@ After running the previous scripts, you can perform the classification by runnin
 
 
 ## References
-* **[CLDA'24]** N. Cécillon, V. Labatut, R. Dufour, N. Arınık: *Whole-Graph Representation Learning For the Classification of Signed Networks*, IEEE Access (in press), 2024. DOI: [10.1109/ACCESS.2024.3472474](https://dx.doi.org/10.1109/ACCESS.2024.3472474) [⟨hal-04712854⟩](https://hal.archives-ouvertes.fr/hal-04712854)
+* **[CLDA'24]** N. Cécillon, V. Labatut, R. Dufour, N. Arınık: *Whole-Graph Representation Learning For the Classification of Signed Networks*, IEEE Access 12:151303-151316, 2024. DOI: [10.1109/ACCESS.2024.3472474](https://dx.doi.org/10.1109/ACCESS.2024.3472474) [⟨hal-04712854⟩](https://hal.archives-ouvertes.fr/hal-04712854)
 * **[NCVC'17]** A. Narayanan, M. Chandramohan, R. Venkatesan, L. Chen, Y. Liu, and S. Jaiswal: *graph2vec: Learning distributed representations of graphs*, International Workshop on Mining and Learning with Graphs, 2017. URL: [http://www.mlgworkshop.org/2017/paper/MLG2017_paper_21.pdf]
 * **[DMT'18]** T. Derr, Y. Ma, and J. Tang: *Signed graph convolutional network*, 18th International Conference on Data Mining, 2018, p.929-934. DOI: [10.1109/ICDM.2018.00113](https://doi.org/10.1109/ICDM.2018.00113).
 * **[WTAC'17]** S. Wang, J. Tang, C. Aggarwal, Y. Chang, and H. Liu. *Signed network embedding in social media*. 17th SIAM International Conference on Data Mining, 2017, p.327-335. DOI: [10.1137/1.9781611974973.37](https://doi.org/10.1137/1.9781611974973.37).
