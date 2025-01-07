@@ -20,7 +20,8 @@ If you use this source code or the associated dataset, please cite reference [[C
   title      = {Whole-Graph Representation Learning For the Classification of Signed Networks},
   journal    = {IEEE Access},
   year       = {2024},
-  volume     = {in press},
+  volume     = {12},
+  pages      = {151303-151316},
   doi        = {10.1109/ACCESS.2024.3472474},
 }
 ```
